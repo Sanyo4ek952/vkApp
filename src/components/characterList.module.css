@@ -1,0 +1,69 @@
+.container {
+    margin-bottom: 10px;
+
+}
+
+.sortButton {
+    margin-left: 10px;
+}
+
+.strong {
+    font-weight: 800;
+}
+
+.listContainer {
+    height: 500px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.characterItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.characterImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.characterInfo {
+    flex: 1;
+}
+
+.characterName {
+    margin: 0;
+}
+
+.characterDetails {
+    margin: 0;
+    color: #666;
+}
+
+.deleteButton {
+    background: #ff4d4f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.editInput {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.loadingContainer {
+    text-align: center;
+    padding: 20px;
+}
